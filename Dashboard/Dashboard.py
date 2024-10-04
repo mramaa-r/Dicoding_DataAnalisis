@@ -10,7 +10,7 @@ sns.set(style="whitegrid")
 # Load the merged dataset
 @st.cache_data
 def load_data():
-    return pd.read_csv('C:\Kuliah\KK Semester 7\Bangkit\Dicoding_Project Data Analisis\Submission\Dashboard\main_data.csv')
+    return pd.read_csv('./main_data.csv')
 
 # Load dataset
 data = load_data()
