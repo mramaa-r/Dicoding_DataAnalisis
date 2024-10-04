@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import path
 
 # Set seaborn style for better visualization
 sns.set(style="whitegrid")
